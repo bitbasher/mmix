@@ -39,7 +39,7 @@ Besides several “official” releases from DEK in the form of gzipped tarballs
 they provide their working sources through a Web-accessible repository.
 
 The present project on Github is a separate effort and holds all releases by
-DEK from 1999 to 2023 in the `master` branch. Much more interesting is the
+DEK from 1999 to 2025 in the `master` branch. Much more interesting is the
 `local` branch; it provides further improvements to the MMIX sources plus a
 “specfile” `mmix.spec` for building installable packages for `rpm` and `deb`
 based Linux distributions with the help of the `rpmbuild` and `debbuild`
@@ -51,6 +51,14 @@ utilities respectively.
 * Advanced build script `mmix.spec` for rpm and deb packaging
 * Modified `Makefile` for target optimization
 * Use C99/C++ types `bool`, `uint8_t` and `uint32_t`
+* Advanced build script `mmix.spec` for rpm and deb packaging
+* Modified `Makefile` for target optimization
+* Use C99/C++ types `bool`, `uint8_t` and `uint32_t`
+* **New in 2023: Completely updated module structure with new header files**
+* **New in 2023: Purge `ARGS` macro in preparation for C2x**
+* **New in 2024: Build “shared object” `libmmix.so` (again)**
+* **New in 2025: Secondary set of change files for `CTWILL` formatting**
+* **New in 2025: Code compiles with C23 standard compilers**
 
 ## Postscript
 
